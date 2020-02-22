@@ -6,7 +6,7 @@
 My app teaches users about how much stronger monkeys are than humans! A simple one card flashcard app. You can select from three options and reset the card interface after.
 
 ### App Walk-though
-<img src="https://recordit.co/oqX17y8UGd.gif" width=400><br>
+<img src="https://recordit.co/oqX17y8UGd.gif" width=300><br>
 
 ## Required
 - [x] Create New Project in Xcode

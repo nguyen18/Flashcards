@@ -6,13 +6,11 @@ Able to change the flashcard's question and answers.
 ### App Walk-though
 <img src="https://recordit.co/YrFJk00H98.gif" width=300><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
-
 ## Required
 - [x] User can open the creation screen
 - [x] User can cancel out of the creation screen
 - [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
-- [ ] Push code to GitHub
+- [x] Push code to GitHub
 ## Optional
 - [ ] User gets an error if they try to create a new flashcard with no question or answer
 - [ ] User can edit existing flashcard

@@ -65,7 +65,7 @@
                                 <rect key="frame" x="41" y="551" width="334" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="Two times">
+                                <state key="normal" title="Two times!">
                                     <color key="titleColor" red="1" green="0.55843930402575159" blue="0.59792371606282813" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -76,7 +76,7 @@
                                 <rect key="frame" x="39" y="473" width="337" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="Five times">
+                                <state key="normal" title="Five times!">
                                     <color key="titleColor" red="0.27398665420945217" green="0.45313098111313121" blue="0.80654954663212441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -87,7 +87,7 @@
                                 <rect key="frame" x="41" y="626" width="334" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="Seven times">
+                                <state key="normal" title="Seven times!">
                                     <color key="titleColor" red="0.41176180075366503" green="0.20430853159322399" blue="0.75595045336787559" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>

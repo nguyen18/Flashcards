@@ -2,4 +2,162 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/CreationViewController.swift"
+            timestampString = "605249482.921458"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/CreationViewController.swift"
+            timestampString = "605249482.921526"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CreationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.flashcardsController.getter : Swift.Optional&lt;Flashcards.ViewController&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Taylor/Library/Autosave%20Information/xcode%20projects/Flashcards/Flashcards/CreationViewController.swift"
+                  timestampString = "605249382.171959"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.flashcardsController.setter : Swift.Optional&lt;Flashcards.ViewController&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Taylor/Library/Autosave%20Information/xcode%20projects/Flashcards/Flashcards/CreationViewController.swift"
+                  timestampString = "605249382.17362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.flashcardsController.modify : Swift.Optional&lt;Flashcards.ViewController&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Taylor/Library/Autosave%20Information/xcode%20projects/Flashcards/Flashcards/CreationViewController.swift"
+                  timestampString = "605249382.185421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.flashcardsController.modify : Swift.Optional&lt;Flashcards.ViewController&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Taylor/Library/Autosave%20Information/xcode%20projects/Flashcards/Flashcards/CreationViewController.swift"
+                  timestampString = "605249382.18949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Flashcards.CreationViewController"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Taylor/Library/Autosave%20Information/xcode%20projects/Flashcards/Flashcards/CreationViewController.swift"
+                  timestampString = "605249382.197606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.CreationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Flashcards.CreationViewController&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Taylor/Library/Autosave%20Information/xcode%20projects/Flashcards/Flashcards/CreationViewController.swift"
+                  timestampString = "605249382.206771"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "137">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/ViewController.swift"
+            timestampString = "605249482.921575"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/ViewController.swift"
+            timestampString = "605249482.9219151"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "didTapOnFlashcards(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

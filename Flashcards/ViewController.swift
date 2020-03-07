@@ -17,28 +17,25 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstOption: UIButton!
     @IBOutlet weak var secondOption: UIButton!
     @IBOutlet weak var thirdOption: UIButton!
-    
-    @IBOutlet weak var resetButton: UIButton!
-    @IBOutlet weak var byeLabel: UILabel!
+    @IBOutlet weak var reset: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        resetButton.isHidden = true
+        reset.isHidden = true
         firstOption.isHidden = false
         secondOption.isHidden = false
         thirdOption.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         frontLabel.isHidden = false
-        byeLabel.isHidden = true
         
         card.layer.cornerRadius = 20.0
         card.clipsToBounds = true
-        card.layer.shadowRadius = 15.0
-        card.layer.shadowOpacity = 0.2
+        card.layer.shadowRadius = 20.0
+        card.layer.shadowOpacity = 0.5
         
         frontLabel.layer.cornerRadius = 20.0
-        frontLabel.layer.shadowRadius = 15.0
-        frontLabel.layer.shadowOpacity = 0.2
+        frontLabel.layer.shadowRadius = 20.0
+        frontLabel.layer.shadowOpacity = 0.5
         frontLabel.clipsToBounds = true
         
         backLabel.layer.cornerRadius = 20.0
@@ -63,25 +60,31 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func didTapOnCards(_ sender: Any) {
+    
+    @IBAction func didTapOnFlashcards(_ sender: Any) {
         if(frontLabel.isHidden == false) {
             frontLabel.isHidden = true
         } else {
             frontLabel.isHidden = false
         }
     }
-
     
+    func updateFlashcard(question: String, answer: String, wrong1: String, wrong2: String) {
+        frontLabel.text = question
+        backLabel.text = answer
+        firstOption.setTitle(wrong1, for: .normal)
+        secondOption.setTitle(wrong2, for: .normal)
+        thirdOption.setTitle(answer, for: .normal)
+    }
+
     @IBAction func tapOpt1(_ sender: UIButton) {
         if(secondOption.isHidden == false) {
             secondOption.isHidden = true
         } else {
             secondOption.isHidden = false
         }
-    
+        reset.isHidden = false
     }
-    
     
     @IBAction func tapOpt2(_ sender: UIButton) {
         if(firstOption.isHidden == false) {
@@ -89,20 +92,27 @@ class ViewController: UIViewController {
         } else {
             firstOption.isHidden = false
         }
+        reset.isHidden = false
     }
     
     @IBAction func tapOpt3(_ sender: UIButton) {
         
         thirdOption.backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
         frontLabel.isHidden = true
-        
-        resetButton.isHidden = false
-        byeLabel.isHidden = false
-        
+        reset.isHidden = false
     }
     
-    @IBAction func reset(_ sender: UIButton) {
+    @IBAction func didTapOnReset(_ sender: Any) {
         viewDidLoad()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        creationController.flashcardsController = self
+    }
+
 }
 

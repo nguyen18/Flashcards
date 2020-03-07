@@ -1,3 +1,23 @@
+## Lab 2
+
+### App Description
+Able to change the flashcard's question and answers.
+
+### App Walk-though
+<img src="https://recordit.co/YrFJk00H98.gif" width=300><br>
+
+`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [ ] Push code to GitHub
+## Optional
+- [ ] User gets an error if they try to create a new flashcard with no question or answer
+- [ ] User can edit existing flashcard
+- [x] User can add multiple choice answers in the creation screen
+
 ## Monkey Strength Flashcards
 
 ## Lab 1
@@ -6,7 +26,7 @@
 My app teaches users about how much stronger monkeys are than humans! A simple one card flashcard app. You can select from three options and reset the card interface after.
 
 ### App Walk-though
-<img src="https://recordit.co/oqX17y8UGd.gif" width=400><br>
+<img src="https://recordit.co/oqX17y8UGd.gif" width=300><br>
 
 ## Required
 - [x] Create New Project in Xcode

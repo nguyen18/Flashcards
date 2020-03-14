@@ -28,14 +28,14 @@ class CreationViewController: UIViewController {
     }
     
     @IBAction func didTapOnDone(_ sender: Any) {
+       flashcardsController.viewDidLoad()
+        
         let question = questionText.text
         let answer = answerText.text
         let wrong = wrong1.text
         let wrongAgain = wrong2.text
   
         flashcardsController.updateFlashcard(question: question!, answer: answer!, wrong1: wrong!, wrong2: wrongAgain!)
-        
-        flashcardsController.viewDidLoad()
         
         dismiss(animated: true)
         

@@ -94,15 +94,6 @@
                                     <action selector="tapOpt3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1S9-Bc-K7u"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ix-X8-09S">
-                                <rect key="frame" x="157" y="712" width="107" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="- change card -"/>
-                                <connections>
-                                    <segue destination="CHF-nX-ln4" kind="presentation" id="d4h-gv-Fwt"/>
-                                </connections>
-                            </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sCa-H4-b4G">
                                 <rect key="frame" x="1" y="29" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -121,6 +112,31 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeP-vX-kL3">
+                                <rect key="frame" x="336" y="762" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AEC-4u-K3b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTz-HV-d4E">
+                                <rect key="frame" x="49" y="762" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NIi-Sc-cbh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ix-X8-09S">
+                                <rect key="frame" x="193" y="753" width="30" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <segue destination="CHF-nX-ln4" kind="presentation" id="d4h-gv-Fwt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -130,6 +146,8 @@
                         <outlet property="card" destination="zfl-0x-64I" id="pUd-Qe-G25"/>
                         <outlet property="firstOption" destination="fUH-pX-DtB" id="cHE-Ur-TwU"/>
                         <outlet property="frontLabel" destination="HOK-Qz-L1g" id="cJY-kH-1pR"/>
+                        <outlet property="nextButton" destination="LeP-vX-kL3" id="ma1-Qh-0Fg"/>
+                        <outlet property="prevButton" destination="WTz-HV-d4E" id="b27-mp-GL6"/>
                         <outlet property="reset" destination="Qm4-Y2-TX4" id="MtV-4l-rjL"/>
                         <outlet property="secondOption" destination="w8A-3T-0J8" id="Ouu-US-D9i"/>
                         <outlet property="thirdOption" destination="fva-fD-deD" id="jKK-DQ-3DJ"/>

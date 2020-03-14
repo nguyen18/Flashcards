@@ -1,3 +1,21 @@
+## Lab 3
+
+### App Description
+Finished the required steps (save to disk, etc.)
+
+### App Walk-though
+
+<img src="https://recordit.co/t4hDsu8aFw.gif" width=300><br>
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
 ## Lab 2
 
 ### App Description

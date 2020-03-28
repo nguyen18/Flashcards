@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         readSavedFlashcards()
         
         if flashcards.count == 0 {
-            updateFlashcard(question: "How much wood did a Wood Chuck chuck?", answer: "a little", wrong1: "no wood", wrong2: "a lot of wood")
+            updateFlashcard(question: "How much wood did a Wood Chuck chuck??", answer: "a little", wrong1: "no wood", wrong2: "a lot of wood")
         } else {
             updateLabels()
             updateNextPrevButtons()

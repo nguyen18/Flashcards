@@ -83,10 +83,38 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTapOnFlashcards(_ sender: Any) {
+        flipFlashcard()
+    }
+    
+    func flipFlashcard() {
         if(frontLabel.isHidden == false) {
             frontLabel.isHidden = true
+            
+            UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight, animations: { self.frontLabel.isHidden = true})
+            
         } else {
             frontLabel.isHidden = false
+            
+            UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight, animations: { self.frontLabel.isHidden = false})
+        }
+        
+        }
+    
+    func animateCardOut() {
+        UIView.animate(withDuration: 0.3, animations: { self.card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y: 0.0) }, completion: { finished in
+            
+            self.updateLabels()
+            
+            self.animateCardIn()
+            
+        })
+    }
+    
+    func animateCardIn() {
+        card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y: 0.0)
+        
+        UIView.animate(withDuration: 0.3) {
+            self.card.transform = CGAffineTransform.identity
         }
     }
     
@@ -169,17 +197,17 @@ class ViewController: UIViewController {
     @IBAction func didTapOnNext(_ sender: Any) {
         currentIndex = currentIndex + 1
         
-        updateLabels()
-        
         updateNextPrevButtons()
+        
+        animateCardOut()
     }
     
     @IBAction func didTapOnPrev(_ sender: Any) {
         currentIndex = currentIndex - 1
         
-        updateLabels()
-        
         updateNextPrevButtons()
+        
+        animateCardIn()
     }
     
     func saveAllFlashcardsToDisk() {
